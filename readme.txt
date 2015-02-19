@@ -44,12 +44,12 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 == Changelog ==
 
 = 1.0 =
-* A change since the previous version.
+* Attualmente non ci sono versioni precedenti.
 
 
 == Upgrade Notice ==
 
 = 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+Nella futura versione Andremo ad ampliare i nostri orizonti :)
 
 
