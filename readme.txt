@@ -33,7 +33,7 @@ possiamo andare ad inserire questa stringa `[[termine]]`, automaticamente questa
 
 = Havete mai pensato quanto tempo si impegna se volessimo effettuare una campagna SEO locale per ogni provincia italiana ?? =
 noi abbiamo cronometrato il tutto ci si impiega una intera giornata lavorativa per creare la stessa pagina per ogni provincia Italiana,
-con SEO multiposition il tutto avviene automaticamente in una manciata di minuti, replichiamo la nostra pagina per ogni provincia italiana.
+con SEO multiposition il tutto avviene automaticamente in una manciata di minuti, replichiamo la vostra pagina per ogni provincia italiana.
 
 
 == Screenshots ==
