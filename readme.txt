@@ -21,10 +21,13 @@ Il plugin ripete la variabile se inserita anche nei campi meta title e descripti
 
 == Installation ==
 
-1. Upload `seo-multiposition` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. In new OR edit page, you can see `Duplicate page for SEO options`
-4. If you choise YES, this Page will be auto replicated for ALL Italy's province.
+1. Uploadare l'intera cartella `seo-multiposition` nella cartella `/wp-content/plugins/`
+2. Attivare il plugin attraverso il menu 'Plugins' nell pannello di conrollo di WordPress
+3. Sia nell'inserimento che nella modifica potremmo vedere la voce intestata `Duplicate page for SEO options`
+4. Non ci resta che andare a creare la nostra pagina; Sia nel titolo che nel contenuto che nelle sezioni riguardanti SEO by YOAST
+possiamo andare ad inserire questa stringa `[[termine]]`, automaticamente questa stringa verra sostituita a turno dalle provincie italiane
+5. ora non ci resta che andare nel menu `Duplicate page for SEO options` e selezionare YES.
+
 
 == Frequently Asked Questions ==
 
