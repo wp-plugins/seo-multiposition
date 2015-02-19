@@ -146,8 +146,6 @@ function rs_insert_duplicate_page_form(){
 	 if( sizeof($duplicates_row) > 0 ){
 	 	/* UPDATE */
 	 	
-	 	//die('up');	 		 
-	 	
 	 	foreach( $duplicates_row AS $row ){
 	 		$sub_page = $row['sub_page'];
 	 		$word = $row['word'];
@@ -200,11 +198,8 @@ function rs_insert_duplicate_page_form(){
 	 	}
 	 	
 	 }else{
-	 			
-	 	//die('in');	
-	 	
+
 	 	/* INSERT */
-	 	/*	 	 	
 		$provinces = array(
 			"AG" => "Agrigento", 			
 			"AL" => "Alessandria", 
@@ -317,16 +312,9 @@ function rs_insert_duplicate_page_form(){
 			"VI" => "Vicenza", 
 			"VT" => "Viterbo"
 		);
-		 */
-		 
-		 $provinces = array(
-			"AG" => "Agrigento" 			
-		);
-		
+
 		foreach($provinces AS $pv){
 			
-			//die(var_dump($page));
-					
 			$body = str_replace("[[termine]]", $pv, $_POST['post_content']);
 			$title = str_replace("[[termine]]", $pv, $_POST['post_title']);
 			$page_duplicate = array(
