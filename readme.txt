@@ -1,7 +1,7 @@
 === Plugin Name ===
-Contributors: Moskitothemes
+Contributors: Moskito
 Donate link: http://www.moskitothemes.com/
-Tags: seo, local seo, local, sem, duplicate, copy
+Tags: seo, local seo, local, sem, duplicate, dynamic page
 Requires at least: 4.0
 Tested up to: 4.0
 Stable tag: 4.1.1
@@ -9,31 +9,40 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-
-1) CREAZIONE DINAMICA PAGINA
-Posizionare una parola chiave per ogni provincia italiana oggi è più facile, multiseo position permette di creare con il tuo tema wordpress una landing page con dei termini dinamici e moltiplicare poi la pagina automaticamente.
-
-2) MOLTIPLICAZIONE DELLE PAGINE
-Dalla pagina “tipo” che hai realizzato seo multiposition crea automaticamente 110 pagine una ogni provincia italiana andando a sostituire la variabile inserita nel titolo o nella descrizione con il nome della provincia;
-
-3) INDICIZZAZIONE E POSIZIONAMENTO
-Il plugin ripete la variabile se inserita anche nei campi meta title e description utilizzando il plugin wordpress seo by yoast, potrai così indicizzare e posizionare sul motore di ricerca le tue parole chiavi per provincia.
+Se avete una landing page da posizionare con una determinata parola chiave in tutte le provincie d'Italia, seo multiposition ve lo permette, risparmiando oltretutto molto tempo.
+Creando la landing page con contenuti e testi con all'interno la parola [[termine]](che rappresenta la variabile provincia) il plugin creerà in automatico una pagina per provincia(totale 120 pagine) andando a sostituire la variabile con il nome della città, che si andranno ad incizzare e posizionare.
+Potrete cosi gestire 120 pagine modificando una pagina solamente.
 
 == Installation ==
 
-1. Uploadare l'intera cartella `seo-multiposition` nella cartella `/wp-content/plugins/`
+1. Caricare l'intera cartella `seo-multiposition` nella cartella `/wp-content/plugins/`
 2. Attivare il plugin attraverso il menu 'Plugins' nell pannello di conrollo di WordPress
 3. Sia nell'inserimento che nella modifica potremmo vedere la voce intestata `Duplicate page for SEO options`
 4. Non ci resta che andare a creare la nostra pagina; Sia nel titolo che nel contenuto che nelle sezioni riguardanti SEO by YOAST
 possiamo andare ad inserire questa stringa `[[termine]]`, automaticamente questa stringa verra sostituita a turno dalle provincie italiane
-5. ora non ci resta che andare nel menu `Duplicate page for SEO options` e selezionare YES.
+5. ora non ci resta che andare nel menu `Duplicate page for SEO options` e selezionare YES per duplicare la pagina creata.
 
 
 == Frequently Asked Questions ==
 
-= Havete mai pensato quanto tempo si impegna se volessimo effettuare una campagna SEO locale per ogni provincia italiana ?? =
-noi abbiamo cronometrato il tutto ci si impiega una intera giornata lavorativa per creare la stessa pagina per ogni provincia Italiana,
-con SEO multiposition il tutto avviene automaticamente in una manciata di minuti, replichiamo la vostra pagina per ogni provincia italiana.
+= A cosa serve il plugin? =
+Il plugin è stato realizzato per indicizzare e posizionare una pagina che si differenzia per contenuto solamente per il nome della città in modo da coprire con una determinata parola chiave tutte le provincie italiane.
+= Perchè utilizzare il plugin? =
+Per creare un indicizzazione e posizionamento per tutte le provincie italiane dovremmo creare 120 pagine a mano ed andare a personalizzare man mano il testo a seconda della provincia su cui dobbiamo andare a lavorare, un lavoro che come minimo anche a seconda della complessità della pagina impieghiamo in 4 ore.
+Il plugin con la sua funzione ci permette di realizzare solamente la prima pagina e poi fa li tutto il resto del lavoro, funziona anche se una volta create le pagine dobbiamo modificarle, quindi modifica in una sola pagina applicata a tutte e 120 le pagine delle provincie italiane.
+= Come faccio a duplicare le pagine? =
+Si crea una nuova pagina in wordpress e inseriamo la parola [[termine]] dove vogliamo che compaia il nome della provincia che il plugin assegnerà in automatico, una volta definita se selezioniamo la scritta in basso a destra su yes (duplicate pages), salvando la pagina crea tutte e 120 le copie che ci occorrono.
+= Come faccio a modificare in automatico tutte e 120 le pagine? =
+Si accede alla pagina originale quella che nel titolo nella maggior parte delle volte contiene la parola [[termine]] si effettua la modifica e si clicca su aggiorna tenendo sempre su yes l'opzione duplicate pages
+= Come posso eliminare tutte le pagine create? =
+Per il momento le pagine create devono essere eliminate una ad una, scrivici se sei interessato a creare un automatismo, info@moskitothemes.com
+= Posso modificare le pagine create automaticamente ? =
+Le pagine create automaticamente possono a loro volta essere modificate nei contenuti, ma se modifichiamo la pagina principale e aggiorniamo quelle modifiche saranno sovrascritte.
+= Il plugin funziona anche con i compositori visuali e tutti i temi? =
+Il plugin funziona con tutti i compositori visuali visual composer etc.. , è compatibile con la maggior parte dei temi, se avete un tema particolare possiamo adattarlo su vostra richiesta, scriveteci a info@moskitothemes.com.
+
+
+
 
 
 == Screenshots ==
@@ -53,6 +62,4 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 == Upgrade Notice ==
 
 = 1.0 =
-Nella futura versione Andremo ad ampliare i nostri orizonti :)
-
-
+Nella futura versione Andremo ad ampliare i nostri orizzonti :)
