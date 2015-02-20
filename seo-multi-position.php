@@ -2,7 +2,7 @@
 /*
 	Plugin Name: SEO Multi Position 
 	Plugin URI: http://www.moskitothemes.com
-	Description: Create once the page in the search engine to index your keyword in all the provinces, and multiply it automatically with multiposition seo. Save your time, FREE!
+	Description: Se avete una landing page da posizionare con una determinata parola chiave in tutte le provincie d'Italia, seo multiposition ve lo permette, risparmiando oltretutto molto tempo. Creando la landing page con contenuti e testi con all'interno la parola [[termine]](che rappresenta la variabile provincia) il plugin creerà in automatico una pagina per provincia(totale 120 pagine) andando a sostituire la variabile con il nome della città, che si andranno ad incizzare e posizionare. Potrete cosi gestire 120 pagine modificando una pagina solamente.
 	Author: MoskitoThemes Team - Roberto Sacchetti (Developer) - Mirko Purificato (Creative) - Antonio Verardi (Seo Specialist)
 	Version: 1.0
 	Author URI: http://www.moskitothemes.com/
