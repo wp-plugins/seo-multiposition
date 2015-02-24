@@ -50,7 +50,17 @@ Il plugin funziona con tutti i compositori visuali visual composer etc.. , è co
 1. Se avete una landing page da posizionare con una determinata parola chiave in tutte le provincie d'Italia, seo multiposition ve lo permette, risparmiando oltretutto molto tempo.
    Creando la landing page con contenuti e testi con all'interno la parola [[termine]](che rappresenta la variabile provincia) il plugin creerà in automatico una pagina per provincia(totale 120 pagine) andando a sostituire la variabile con il nome della città, che si andranno ad incizzare e posizionare.
    Potrete cosi gestire 120 pagine modificando una pagina solamente.
-2.
+2. Obiettivo:  Posizionare la parola negozio integratori in tutta italia abbinando alla parola chiave principale il nome della provincia
+   Ex
+   ·         Negozio integratori Agrigento
+
+   ·         Negozio integratori Benevento
+
+   ·         Negozio integratori  Catanzaro
+
+   ·         Etc….. per tutte e 120 le provincie
+
+
 3.
 4.
 5.
