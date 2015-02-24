@@ -54,6 +54,14 @@ function rs_duplicate_page_form()
                                 </p>
                             </td>
                     </tr>
+
+					<tr valign="top">
+						<th scope="row"></th>
+						<td>
+							<a target="_blank" href="www.moskitothemes.com"> <img src="images/plugin-FAQ.png" /> </a>
+						</td>
+					</tr>
+
                 </tbody>
             </table>
         </form>
