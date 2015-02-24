@@ -53,10 +53,10 @@ Il plugin funziona con tutti i compositori visuali visual composer etc.. , è co
 2. Obiettivo:  Posizionare la parola negozio integratori in tutta italia abbinando alla parola chiave principale il nome della provincia
 
    Ex
-   - Negozio integratori Agrigento
-   - Negozio integratori Benevento
-   - Negozio integratori  Catanzaro
-   - Etc….. per tutte e 120 le provincie
+   * Negozio integratori Agrigento
+   * Negozio integratori Benevento
+   * Negozio integratori  Catanzaro
+   * Etc….. per tutte e 120 le provincie
 
 
 3. Problema:  Essendo delle landing page supponiamo che la grafica ed il testo della pagina rimangono simili, ma si differenziano nella parola chiave, dovremmo a mano crearci 120 pagine (1 per provincia), tempo di lavoro se siamo bravi almeno 4 ore.
