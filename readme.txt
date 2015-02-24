@@ -46,22 +46,22 @@ Il plugin funziona con tutti i compositori visuali visual composer etc.. , è co
 
 
 == Screenshots ==
-
-1. Se avete una landing page da posizionare con una determinata parola chiave in tutte le provincie d'Italia, seo multiposition ve lo permette, risparmiando oltretutto molto tempo.
+1. VIDEO - https://www.youtube.com/watch?v=qSGdoDB2BwY&feature=youtu.be
+2. Se avete una landing page da posizionare con una determinata parola chiave in tutte le provincie d'Italia, seo multiposition ve lo permette, risparmiando oltretutto molto tempo.
    Creando la landing page con contenuti e testi con all'interno la parola [[termine]](che rappresenta la variabile provincia) il plugin creerà in automatico una pagina per provincia(totale 120 pagine) andando a sostituire la variabile con il nome della città, che si andranno ad incizzare e posizionare.
    Potrete cosi gestire 120 pagine modificando una pagina solamente.
-2. Obiettivo:  Posizionare la parola negozio integratori in tutta italia abbinando alla parola chiave principale il nome della provincia
+3. Obiettivo:  Posizionare la parola negozio integratori in tutta italia abbinando alla parola chiave principale il nome della provincia
    Ex
    Negozio integratori Agrigento
    Negozio integratori Benevento
    Negozio integratori  Catanzaro
    Etc….. per tutte e 120 le provincie
-3. Problema:  Essendo delle landing page supponiamo che la grafica ed il testo della pagina rimangono simili, ma si differenziano nella parola chiave, dovremmo a mano crearci 120 pagine (1 per provincia), tempo di lavoro se siamo bravi almeno 4 ore.
-4. Soluzione:Installiamo e Utilizziamo il plugin Seo Multiposition che ci permetterà di creare una sola volta la pagina, inserendo un campo variabile denominato [[termine]] consentiremo in automantico a wordpress di creare le 120 pagine che si differenziano per contenuto con il campo variabile dellla provincia, ad esempio otterremo delle pagine come:
+4. Problema:  Essendo delle landing page supponiamo che la grafica ed il testo della pagina rimangono simili, ma si differenziano nella parola chiave, dovremmo a mano crearci 120 pagine (1 per provincia), tempo di lavoro se siamo bravi almeno 4 ore.
+5. Soluzione:Installiamo e Utilizziamo il plugin Seo Multiposition che ci permetterà di creare una sola volta la pagina, inserendo un campo variabile denominato [[termine]] consentiremo in automantico a wordpress di creare le 120 pagine che si differenziano per contenuto con il campo variabile dellla provincia, ad esempio otterremo delle pagine come:
 
    Tempo di lavoro 10 minuti
-5. Le pagine si indicizzeranno con quella parola chiave e, con i dovuti accorgimenti seo, si posizioneranno nel motore di ricerca nelle provincie di tutta italia!
-6. moskitothemes.com
+6. Le pagine si indicizzeranno con quella parola chiave e, con i dovuti accorgimenti seo, si posizioneranno nel motore di ricerca nelle provincie di tutta italia!
+7. moskitothemes.com
 
 == Changelog ==
 
