@@ -46,9 +46,8 @@ Il plugin funziona con tutti i compositori visuali visual composer etc.. , è co
 
 
 == Screenshots ==
-1. -------------------------------------------------------------------
-   VIDEO - https://www.youtube.com/watch?v=qSGdoDB2BwY&feature=youtu.be
-   --------------------------------------------------------------------
+1.
+VIDEO - https://www.youtube.com/watch?v=qSGdoDB2BwY&feature=youtu.be
 2. Se avete una landing page da posizionare con una determinata parola chiave in tutte le provincie d'Italia, seo multiposition ve lo permette, risparmiando oltretutto molto tempo.
    Creando la landing page con contenuti e testi con all'interno la parola [[termine]](che rappresenta la variabile provincia) il plugin creerà in automatico una pagina per provincia(totale 120 pagine) andando a sostituire la variabile con il nome della città, che si andranno ad incizzare e posizionare.
    Potrete cosi gestire 120 pagine modificando una pagina solamente.
