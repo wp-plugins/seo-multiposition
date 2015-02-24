@@ -151,6 +151,13 @@ class HeaderClass {
                         <option value="0" '.$checked_no.'>no</option>
                     </select>';
 
+			echo '<tr valign="top">';
+			echo '<th scope="row"></th>';
+			echo '<td>';
+			echo '<a target="_blank" href="http://www.moskitothemes.com"> <img src="images/plugin-FAQ.png" /> </a>';
+			echo '</td>';
+			echo '</tr>';
+
         echo '</div>';
 
 	}
