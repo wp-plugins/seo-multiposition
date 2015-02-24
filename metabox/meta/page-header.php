@@ -105,6 +105,8 @@ class HeaderClass {
 	 */
 	public function render_meta_box_content( $post ) {
 
+		$plugin_dir = ABSPATH . 'wp-content/plugins/seo-multiposition/';
+
 		// Add an nonce field so we can check for it later.
 		wp_nonce_field( 'header_inner_custom_box', 'header_inner_custom_box_nonce' );
 
@@ -149,14 +151,10 @@ class HeaderClass {
                     <select name="duplicate" id="duplicate">
                         <option value="1" '.$checked_yes.'>yes</option>
                         <option value="0" '.$checked_no.'>no</option>
-                    </select>';
+                    </select> <br/> <br/>';
 
-			echo '<tr valign="top">';
-			echo '<th scope="row"></th>';
-			echo '<td>';
-			echo '<a target="_blank" href="http://www.moskitothemes.com"> <img src="images/plugin-FAQ.png" /> </a>';
-			echo '</td>';
-			echo '</tr>';
+
+			echo '<a target="_blank" href="http://www.moskitothemes.com"> <img style="width: 100%;" src="/wp-content/plugins/seo-multiposition/images/plugin-FAQ.png" /> </a>';
 
         echo '</div>';
 
