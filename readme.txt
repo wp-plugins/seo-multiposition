@@ -70,7 +70,7 @@ Il plugin funziona con tutti i compositori visuali visual composer etc.. , è co
    Tempo di lavoro 10 minuti
 
 5. Le pagine si indicizzeranno con quella parola chiave e, con i dovuti accorgimenti seo, si posizioneranno nel motore di ricerca nelle provincie di tutta italia!
-6.
+6. moskitothemes.com
 
 == Changelog ==
 
