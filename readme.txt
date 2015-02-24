@@ -51,6 +51,7 @@ Il plugin funziona con tutti i compositori visuali visual composer etc.. , è co
    Creando la landing page con contenuti e testi con all'interno la parola [[termine]](che rappresenta la variabile provincia) il plugin creerà in automatico una pagina per provincia(totale 120 pagine) andando a sostituire la variabile con il nome della città, che si andranno ad incizzare e posizionare.
    Potrete cosi gestire 120 pagine modificando una pagina solamente.
 2. Obiettivo:  Posizionare la parola negozio integratori in tutta italia abbinando alla parola chiave principale il nome della provincia
+
    Ex
    ·         Negozio integratori Agrigento
 
