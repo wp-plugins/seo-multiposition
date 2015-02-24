@@ -53,6 +53,7 @@ Il plugin funziona con tutti i compositori visuali visual composer etc.. , è co
 2. Obiettivo:  Posizionare la parola negozio integratori in tutta italia abbinando alla parola chiave principale il nome della provincia
 
    Ex
+
    ·         Negozio integratori Agrigento
 
    ·         Negozio integratori Benevento
