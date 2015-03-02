@@ -8,14 +8,20 @@ function rs_activated() {
 
    	global $wpdb;
   	$your_table_name = $wpdb->prefix . 'seo_multi_position';
+  	$your_table_name_list = $wpdb->prefix . 'seo_multi_position_list';
+  	$your_table_name_list_attr = $wpdb->prefix . 'seo_multi_position_list_attr';
+
 	// create the ECPT metabox database table
 	if($wpdb->get_var("show tables like '$your_table_name'") != $your_table_name) 
 	{
-		$sql = "CREATE TABLE " . $your_table_name . " (
-		id mediumint(9) NOT NULL PRIMARY KEY,
-		page_id mediumint(9) NOT NULL,
-		sub_page mediumint(9) NOT NULL,
-		word VARCHAR(125)
+		$sql = "
+
+		CREATE TABLE wp_seo_multi_position ( id mediumint(9) NOT NULL PRIMARY KEY AUTO_INCREMENT, page_id mediumint(9) NOT NULL, sub_page mediumint(9) NOT NULL, word VARCHAR(125) );
+
+CREATE TABLE wp_seo_multi_position_list ( id mediumint(9) NOT NULL PRIMARY KEY AUTO_INCREMENT, title VARCHAR(125) );
+
+CREATE TABLE wp_seo_multi_position_list_attr ( id mediumint(9) NOT NULL PRIMARY KEY AUTO_INCREMENT, title VARCHAR(125), id_list mediumint(9) );
+
 		);";
 
 		require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
@@ -42,99 +48,7 @@ function rs_uninstall()
 	$wpdb->query($sql);
 }
 
-/*
- * 
- * array(83) {
-	 ["_wpnonce"]=> string(10) "44ba0652a8" 
-	 ["_wp_http_referer"]=> string(51) "/wp-admin/post.php?post=1443&action=edit&message=10" 
-	 ["user_ID"]=> int(1) 
-	 ["action"]=> string(8) "editpost" 
-	 ["originalaction"]=> string(8) "editpost" 
-	 ["post_author"]=> int(1) 
-	 ["post_type"]=> string(4) "page" 
-	 ["original_post_status"]=> string(5) "draft" 
-	 ["referredby"]=> string(68) "http://www.robertosacchetti.com/wp-admin/post-new.php?post_type=page" 
-	 ["post_ID"]=> string(4) "1443" 
-	 ["meta-box-order-nonce"]=> string(10) "69723594fa" 
-	 ["closedpostboxesnonce"]=> string(10) "e90ecf2218" 
-	 ["post_title"]=> string(43) "Roberto quanto Ã¨ bello stare a [[termine]]" 
-	 ["samplepermalinknonce"]=> string(10) "1502b2e45d" 
-	 ["content"]=> string(53) "Roberto quanto Ã¨ bello stare a [[termine]]  " 
-	 ["save"]=> string(11) "Salva bozza" 
-	 ["wp-preview"]=> string(0) "" 
-	 ["hidden_post_status"]=> string(5) "draft" 
-	 ["post_status"]=> string(5) "draft" 
-	 ["hidden_post_password"]=> string(0) "" 
-	 ["hidden_post_visibility"]=> string(6) "public" 
-	 ["visibility"]=> string(6) "public" 
-	 ["post_password"]=> string(0) "" 
-	 ["jj"]=> string(2) "15" 
-	 ["mm"]=> string(2) "01" 
-	 ["aa"]=> string(4) "2015" 
-	 ["hh"]=> string(2) "10" 
-	 ["mn"]=> string(2) "09" 
-	 ["ss"]=> string(2) "43" 
-	 ["hidden_mm"]=> string(2) "01" 
-	 ["cur_mm"]=> string(2) "01" 
-	 ["hidden_jj"]=> string(2) "15" 
-	 ["cur_jj"]=> string(2) "15" 
-	 ["hidden_aa"]=> string(4) "2015" 
-	 ["cur_aa"]=> string(4) "2015" 
-	 ["hidden_hh"]=> string(2) "10" 
-	 ["cur_hh"]=> string(2) "10" 
-	 ["hidden_mn"]=> string(2) "09" 
-	 ["cur_mn"]=> string(2) "09" 
-	 ["original_publish"]=> string(8) "Pubblica" 
-	 ["parent_id"]=> string(0) "" 
-	 ["page_template"]=> string(7) "default" 
-	 ["menu_order"]=> string(1) "0" 
-	 ["xmlsf_sitemap_nonce"]=> string(10) "5f4f151065" 
-	 ["xmlsf_priority"]=> string(0) "" 
-	 ["header_inner_custom_box_nonce"]=> string(10) "8ff2f158a2" 
-	 ["duplicate"]=> string(1) "1" 
-	 ["yoast_wpseo_focuskw"]=> string(0) "" 
-	 ["yoast_wpseo_title"]=> string(0) "" 
-	 ["yoast_wpseo_metadesc"]=> string(0) "" 
-	 ["yoast_wpseo_metakeywords"]=> string(0) "" 
-	 ["yoast_wpseo_meta-robots-noindex"]=> string(1) "0" 
-	 ["yoast_wpseo_meta-robots-nofollow"]=> string(1) "0" 
-	 ["yoast_wpseo_meta-robots-adv"]=> array(1) { [0]=> string(1) "-" } 
-	 ["yoast_wpseo_sitemap-include"]=> string(1) "-" 
-	 ["yoast_wpseo_sitemap-prio"]=> string(1) "-" 
-	 ["yoast_wpseo_canonical"]=> string(0) "" 
-	 ["yoast_wpseo_redirect"]=> string(0) "" 
-	 ["yoast_wpseo_opengraph-title"]=> string(0) "" 
-	 ["yoast_wpseo_opengraph-description"]=> string(0) "" 
-	 ["yoast_wpseo_opengraph-image"]=> string(0) "" 
-	 ["meta"]=> array(3) { [6838]=> array(2) {
-	 		 ["key"]=> string(22) "si_page_video_autoplay" 
-	 		 ["value"]=> string(2) "no" 
-	 } [6836]=> array(2) { ["key"]=> string(15) "si_photos_title" ["value"]=> string(3) "yes" } 
-	 [6837]=> array(2) { ["key"]=> string(18) "si_slider_autoplay" ["value"]=> string(3) "yes" } } 
-	 ["_ajax_nonce"]=> string(10) "9ec82c8793" 
-	 ["metakeyselect"]=> string(6) "#NONE#" 
-	 ["metakeyinput"]=> string(0) "" 
-	 ["metavalue"]=> string(0) "" 
-	 ["_ajax_nonce-add-meta"]=> string(10) "4a734bc05c" 
-	 ["advanced_view"]=> string(1) "1" 
-	 ["comment_status"]=> string(4) "open" 
-	 ["ping_status"]=> string(4) "open" 
-	 ["post_name"]=> string(0) "" 
-	 ["post_author_override"]=> string(1) "1" 
-	 ["si_meta_box_nonce"]=> string(10) "f187d3b294" 
-	 ["si_photos_number"]=> string(0) "" 
-	 ["si_photos_title"]=> string(3) "yes" 
-	 ["si_page_video"]=> string(0) "" 
-	 ["si_page_video_autoplay"]=> string(2) "no" 
-	 ["si_page_background"]=> string(0) "" 
-	 ["si_slider_autoplay"]=> string(3) "yes" 
-	 ["post_mime_type"]=> string(0) "" 
-	 ["ID"]=> int(1443) 
-	 ["post_content"]=> string(53) "Roberto quanto Ã¨ bello stare a [[termine]]  " 
-	 ["post_parent"]=> int(0) }
- * 
- * 
- */
+
 function rs_insert_duplicate_page_form(){
 	global $wpdb;
 	$page = get_post( $_REQUEST['rs_duplacate_page'], 'ARRAY_A' );
@@ -394,7 +308,7 @@ function rs_delete_relation(){
 
 function rs_add_option_page()
 {
-    add_options_page('Duplicate Page Options', 'Duplicate Page Options', 'administrator', 'duplicate-page', 'rs_duplicate_page_form');
+    add_options_page('Duplicate Page Options', 'SEO Multiposition', 'administrator', 'duplicate-page', 'rs_duplicate_page_form');
 }
 
 
