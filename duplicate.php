@@ -72,8 +72,8 @@ function rs_insert_duplicate_page_form(){
 			    'post_title' => $title,
 			);
 			
-			$wpdb->update( 
-				'wp_posts', 
+			$wpdb->update(
+                $wpdb->prefix . 'posts',
 				$page_duplicate,
 				array( 'ID' => $sub_page ), 
 				array( 
@@ -254,7 +254,7 @@ function rs_insert_duplicate_page_form(){
 				'%s','%s','%s'
 			);
 			
-			$wpdb->insert( 'wp_posts', $page_duplicate, $my_post_Format);	
+			$wpdb->insert( $wpdb->prefix . 'posts', $page_duplicate, $my_post_Format);
 			$new_page_id = 	$wpdb->insert_id;
 			add_post_meta( $new_page_id, '_wp_page_template', $_POST["page_template"] );
 			
